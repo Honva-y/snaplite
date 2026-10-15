@@ -29,7 +29,7 @@ final class AnnotationToolbar: NSView {
             let arrow = makeButton("arrow.up.right", tip: "箭头 (A)", action: #selector(arrowTapped))
             let pen = makeButton("pencil.tip", tip: "画笔 (P)", action: #selector(penTapped))
             let mosaic = makeButton("checkerboard.rectangle", tip: "打码 (M)", action: #selector(mosaicTapped))
-            let text = makeButton("textformat", tip: "文字 (T)", action: #selector(textTapped))
+            let text = makeButton("t.square", tip: "文字 (T)", action: #selector(textTapped))
             toolButtons[.rect] = rect
             toolButtons[.arrow] = arrow
             toolButtons[.pen] = pen
